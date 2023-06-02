@@ -1,5 +1,4 @@
 class KubectlSort < Formula
-  include Language::Python::Virtualenv
   desc "Sorting plugin for kubectl, simplifying sorting of kubectl get"
   homepage "https://github.com/seifrajhi/kubectl-sort"
   url "https://github.com/seifrajhi/kubectl-sort/archive/refs/tags/v1.0.0.tar.gz"
@@ -18,5 +17,4 @@ class KubectlSort < Formula
   def install
     bin.install "sort.py" => "sort"
   end
-
 end
