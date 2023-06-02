@@ -6,8 +6,9 @@ class KubectlSort < Formula
   license "MIT"
   bottle do
     root_url "https://github.com/seifrajhi/homebrew-kubectl-sort/releases/download/kubectl-sort-1.0.0"
-    sha256 cellar: :any_skip_relocation, ventura:      "66ebc643de49dcd2b6a5dd8766d5572611cd4b313ff10e16a0f031116170aeb8"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "0060ba0319276ea214a783a186f6d7ca0214d723923e84f6f630c350fda800c4"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, ventura:      "5fdca6ba7d615344bb9abd14715a1b974444fac285ae3735c2813d89a087fcc7"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "a365ef4c5ac015dfd1d2bda386eda196ad2bf0e1d4a8664c1d1f3f05572168fc"
   end
   def install
     bin.install "sort.py" => "kubectl-sort"
