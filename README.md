@@ -9,4 +9,3 @@ Or `brew tap seifrajhi/kubectl-sort` and then `brew install <formula>`.
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
-
