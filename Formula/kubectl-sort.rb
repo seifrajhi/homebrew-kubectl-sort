@@ -13,7 +13,6 @@ class KubectlSort < Formula
   end
   depends_on "python@3.9"
   def install
-    virtualenv_install_with_resources
     inreplace "sort.py", "#!/usr/bin/env python", "#!/usr/bin/env python3"
     bin.install "sort.py" => "kubectl-sort"
   end
