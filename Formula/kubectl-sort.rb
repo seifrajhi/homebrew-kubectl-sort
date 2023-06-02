@@ -15,3 +15,4 @@ class KubectlSort < Formula
     bin.install "sort.py" => "kubectl-sort"
   end
 end
+
