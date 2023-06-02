@@ -14,6 +14,6 @@ class KubectlSort < Formula
     sha256 x86_64_linux:   "e2df7e7b96ec43663841c3dfc8bc28d15087d39be147fde3d0dd1ba564be7a95"
   end
   def install
-    bin.install "sort.py" => "sort"
+    bin.install "sort.py" => "kubectl-sort"
   end
 end
